@@ -851,6 +851,8 @@ void MatchCalculator(BXType bx,
     goodmatch      = goodmatch_next;
     projseed       = projseed_next;
 
+    bx_o = bx;
+
   }// end MC_LOOP 
 
   /*
