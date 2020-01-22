@@ -8,6 +8,7 @@
 #include "AllStubMemory.hh"
 #include "AllProjectionMemory.hh"
 #include "FullMatchMemory.hh"
+#include <bitset>
 
 //////////////////////////////////////////////////////////////
 
@@ -410,7 +411,7 @@ void MatchCalculator(BXType bx,
   MC_LOOP: for (ap_uint<kNBits_MemAddr> istep = 0; istep < kMaxProc; istep++)
   {
 
-#pragma HLS PIPELINE II=1 rewind
+#pragma HLS PIPELINE II=1 
 
     // Pick up number of candidate matches for each CM memory
     ncm1 = match1->getEntries(bx);
@@ -845,7 +846,7 @@ void MatchCalculator(BXType bx,
       }
     }
 
-    // pipeline the bestmatch registers 
+    // pipeline the bestmatch registers
     bestmatch      = bestmatch_next;
     goodmatch      = goodmatch_next;
     projseed       = projseed_next;
