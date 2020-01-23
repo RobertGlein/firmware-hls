@@ -626,6 +626,18 @@ wire[44:0] FM_L1L2XX_L3PHIC_dataarray_data_V_dout;
 wire[7:0] FM_L1L2XX_L3PHIC_nentries_0_V_dout;
 wire[7:0] FM_L1L2XX_L3PHIC_nentries_1_V_dout;
 
+<<<<<<< HEAD
+=======
+reg[13:0] CM_L3PHIC17_dataarray_data_V_doutMSB;
+reg[6:0] CM_L3PHIC17_dataarray_data_V_doutLSB; 
+always @(posedge clk) begin
+    CM_L3PHIC17_dataarray_data_V_doutMSB = CM_L3PHIC17_dataarray_data_V_dout;
+    CM_L3PHIC17_dataarray_data_V_doutMSB = (CM_L3PHIC17_dataarray_data_V_doutMSB>>7);
+    CM_L3PHIC17_dataarray_data_V_doutLSB = CM_L3PHIC17_dataarray_data_V_dout;
+    $display("0x%\h\t0x%\h\t0x%h\t0x%h\t0x%h\t0x%h\t%b\t0x%h", bx_out_MatchCalculator, CM_L3PHIC17_dataarray_data_V_dout, CM_L3PHIC17_dataarray_data_V_doutMSB, CM_L3PHIC17_dataarray_data_V_doutLSB, AP_L3PHIC_dataarray_data_V_dout, AS_L3PHICn4_dataarray_data_V_dout, FM_L1L2XX_L3PHIC_dataarray_data_V_din, FM_L1L2XX_L3PHIC_dataarray_data_V_din);
+end
+
+>>>>>>> c109e9c138284aafe503d60effb01dcaec2c99c6
 Memory #(
   .RAM_WIDTH(45),
   .RAM_DEPTH(256),
