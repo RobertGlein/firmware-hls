@@ -39,6 +39,7 @@ if {[string equal [get_filesets -quiet sim_1] ""]} {
 set obj [get_filesets sim_1]
 set files [list \
  [file normalize "${origin_dir}/sourceFiles/SectorProcessor_test.v"] \
+ [file normalize "${origin_dir}/Waveforms/CurrentWaveform.wcfg"] \
  [file normalize "${origin_dir}/emData/AS_L3PHICn4.dat"] \
  [file normalize "${origin_dir}/emData/AP_L3PHIC.dat"] \
  [file normalize "${origin_dir}/emData/CM_L3PHIC24.dat"] \
