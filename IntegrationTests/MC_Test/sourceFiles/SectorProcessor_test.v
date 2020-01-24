@@ -170,8 +170,8 @@ initial begin
   AS_L3PHICn4_nentries_7_V_we = 1'b1;
 end
 
-reg[7:0] AS_L3PHICn4_nentreg_0 = 8'b00001001; // FIX
-reg[7:0] AS_L3PHICn4_nentreg_1 = 8'b00001001; // FIX
+reg[7:0] AS_L3PHICn4_nentreg_0 = 8'b00111110; // FIX
+reg[7:0] AS_L3PHICn4_nentreg_1 = 8'b00111010; // FIX
 reg[7:0] AS_L3PHICn4_nentreg_2 = 8'b00001001; // FIX
 reg[7:0] AS_L3PHICn4_nentreg_3 = 8'b00001001; // FIX
 reg[7:0] AS_L3PHICn4_nentreg_4 = 8'b00001001; // FIX
@@ -506,8 +506,8 @@ initial begin
   AP_L3PHIC_nentries_7_V_we = 1'b1;
 end
 
-reg[7:0] AP_L3PHIC_nentreg_0 = 8'b00001001; // FIX
-reg[7:0] AP_L3PHIC_nentreg_1 = 8'b00001001; // FIX
+reg[7:0] AP_L3PHIC_nentreg_0 = 8'b00110111; // FIX
+reg[7:0] AP_L3PHIC_nentreg_1 = 8'b00111010; // FIX
 reg[7:0] AP_L3PHIC_nentreg_2 = 8'b00001001; // FIX
 reg[7:0] AP_L3PHIC_nentreg_3 = 8'b00001001; // FIX
 reg[7:0] AP_L3PHIC_nentreg_4 = 8'b00001001; // FIX
