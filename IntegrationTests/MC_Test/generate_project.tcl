@@ -26,7 +26,7 @@ update_ip_catalog -rebuild
 set obj [get_filesets sources_1]
 set files [list \
  [file normalize "${origin_dir}/../../TrackletAlgorithm/Memory.v"] \
- [file normalize "${origin_dir}/sourceFiles/SectorProcessor.v"] \
+ [file normalize "${origin_dir}/sourceFiles/uut.v"] \
 ]
 add_files -norecurse -fileset $obj $files
 
@@ -38,7 +38,7 @@ if {[string equal [get_filesets -quiet sim_1] ""]} {
 # Set 'sim_1' fileset object
 set obj [get_filesets sim_1]
 set files [list \
- [file normalize "${origin_dir}/sourceFiles/SectorProcessor_test.v"] \
+ [file normalize "${origin_dir}/sourceFiles/testfixture.v"] \
  [file normalize "${origin_dir}/Waveforms/CurrentWaveform.wcfg"] \
  [file normalize "${origin_dir}/emData/AS_L3PHICn4.dat"] \
  [file normalize "${origin_dir}/emData/AP_L3PHIC.dat"] \
@@ -58,7 +58,7 @@ create_ip -name MatchCalculatorTop -vendor xilinx.com -library hls -version 1.0 
 
 # Set 'sim_1' fileset properties
 set obj [get_filesets sim_1]
-set_property -name "top" -value "SectorProcessor_test" -objects $obj
+set_property -name "top" -value "testfixture" -objects $obj
 set_property -name "xsim.simulate.runtime" -value "3000ns" -objects $obj
 
 puts "INFO: Project created:${_xil_proj_name_}"
