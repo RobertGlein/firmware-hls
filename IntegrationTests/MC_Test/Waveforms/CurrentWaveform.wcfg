@@ -19,7 +19,7 @@
       <NameColumnWidth column_width="290"></NameColumnWidth>
       <ValueColumnWidth column_width="66"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="174" />
+   <WVObjectSize size="169" />
    <wvobject type="logic" fp_name="/SectorProcessor_test/clk">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -646,10 +646,6 @@
    <wvobject type="array" fp_name="/SectorProcessor_test/FM_L1L2XX_L3PHIC_nentries_1_V_din">
       <obj_property name="ElementShortName">FM_L1L2XX_L3PHIC_nentries_1_V_din[7:0]</obj_property>
       <obj_property name="ObjectShortName">FM_L1L2XX_L3PHIC_nentries_1_V_din[7:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/SectorProcessor_test/FM_L1L2XX_L3PHIC/BRAM">
-      <obj_property name="ElementShortName">BRAM[255:0][44:0]</obj_property>
-      <obj_property name="ObjectShortName">BRAM[255:0][44:0]</obj_property>
    </wvobject>
    <wvobject type="logic" fp_name="/SectorProcessor_test/FM_L1L2XX_L3PHIC_dataarray_data_V_enb">
       <obj_property name="ElementShortName">FM_L1L2XX_L3PHIC_dataarray_data_V_enb</obj_property>
