@@ -7,24 +7,6 @@
 // Description: Memory modules which store data between the algorithm steps in the Hybrid L1 Tracking algorithm
 // Revision:
 // Revision 0.01 - File imported from Tracklet 1.0, n_ent ports added.
-=======
-// Company: 
-// Engineer: 
-// 
-// Create Date: 09/28/2014 01:08:52 PM
-// Design Name: 
-// Module Name: Memory
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Revision 0.01 - File Created
->>>>>>> 5e4469ba38880cb1d6857622dfd63fcf83cd3fff
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
