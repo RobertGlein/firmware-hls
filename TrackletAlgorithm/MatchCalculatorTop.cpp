@@ -23,14 +23,6 @@ void MatchCalculatorTop(BXType bx,
 {
  #pragma HLS inline off
  #pragma HLS interface register port=bx_o
- #pragma HLS resource variable=match1 latency=2
- #pragma HLS resource variable=match2 latency=2
- #pragma HLS resource variable=match3 latency=2
- #pragma HLS resource variable=match4 latency=2
- #pragma HLS resource variable=match5 latency=2
- #pragma HLS resource variable=match6 latency=2
- #pragma HLS resource variable=match7 latency=2
- #pragma HLS resource variable=match8 latency=2
  #pragma HLS resource variable=allstub latency=2
  #pragma HLS resource variable=allproj latency=2
 

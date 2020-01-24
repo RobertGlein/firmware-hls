@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="1017500000fs"></ZoomStartTime>
-      <ZoomEndTime time="1748000001fs"></ZoomEndTime>
-      <Cursor1Time time="1345000000fs"></Cursor1Time>
+      <ZoomStartTime time="1184295543fs"></ZoomStartTime>
+      <ZoomEndTime time="2903981032fs"></ZoomEndTime>
+      <Cursor1Time time="1485000000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="302"></NameColumnWidth>
+      <NameColumnWidth column_width="290"></NameColumnWidth>
       <ValueColumnWidth column_width="66"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="174" />
+   <WVObjectSize size="169" />
    <wvobject type="logic" fp_name="/SectorProcessor_test/clk">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -51,25 +51,6 @@
    <wvobject type="array" fp_name="/SectorProcessor_test/CM_L3PHIC17_dataarray_data_V_readaddr">
       <obj_property name="ElementShortName">CM_L3PHIC17_dataarray_data_V_readaddr[7:0]</obj_property>
       <obj_property name="ObjectShortName">CM_L3PHIC17_dataarray_data_V_readaddr[7:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/SectorProcessor_test/CM_L3PHIC17/BRAM">
-      <obj_property name="ElementShortName">BRAM[255:0][13:0]</obj_property>
-      <obj_property name="ObjectShortName">BRAM[255:0][13:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/SectorProcessor_test/SectorProcessor_inst/MC_L3PHIC/inst/grp_MatchCalculator_fu_248/cm_L3_next_data_V_reg_8933">
-      <obj_property name="ElementShortName">cm_L3_next_data_V_reg_8933[13:0]</obj_property>
-      <obj_property name="ObjectShortName">cm_L3_next_data_V_reg_8933[13:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/SectorProcessor_test/SectorProcessor_inst/MC_L3PHIC/inst/grp_MatchCalculator_fu_248/stubid_V_reg_8970">
-      <obj_property name="ElementShortName">stubid_V_reg_8970[6:0]</obj_property>
-      <obj_property name="ObjectShortName">stubid_V_reg_8970[6:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/SectorProcessor_test/SectorProcessor_inst/MC_L3PHIC/inst/grp_MatchCalculator_fu_248/projid_V_reg_8963">
-      <obj_property name="ElementShortName">projid_V_reg_8963[6:0]</obj_property>
-      <obj_property name="ObjectShortName">projid_V_reg_8963[6:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/SectorProcessor_test/CM_L3PHIC17_dataarray_data_V_dout">
       <obj_property name="ElementShortName">CM_L3PHIC17_dataarray_data_V_dout[13:0]</obj_property>
@@ -648,10 +629,6 @@
    <wvobject type="array" fp_name="/SectorProcessor_test/FM_L1L2XX_L3PHIC_nentries_1_V_din">
       <obj_property name="ElementShortName">FM_L1L2XX_L3PHIC_nentries_1_V_din[7:0]</obj_property>
       <obj_property name="ObjectShortName">FM_L1L2XX_L3PHIC_nentries_1_V_din[7:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/SectorProcessor_test/FM_L1L2XX_L3PHIC/BRAM">
-      <obj_property name="ElementShortName">BRAM[255:0][44:0]</obj_property>
-      <obj_property name="ObjectShortName">BRAM[255:0][44:0]</obj_property>
    </wvobject>
    <wvobject type="logic" fp_name="/SectorProcessor_test/FM_L1L2XX_L3PHIC_dataarray_data_V_enb">
       <obj_property name="ElementShortName">FM_L1L2XX_L3PHIC_dataarray_data_V_enb</obj_property>
