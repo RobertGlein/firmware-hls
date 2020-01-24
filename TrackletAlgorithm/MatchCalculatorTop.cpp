@@ -21,6 +21,16 @@ void MatchCalculatorTop(BXType bx,
                         FullMatchMemory<BARREL>* fullmatch7
                         )
 {
+ #pragma HLS inline off
+ #pragma HLS interface register port=bx_o
+ #pragma HLS resource variable=proj1in latency=2
+ #pragma HLS resource variable=proj2in latency=2
+ #pragma HLS resource variable=proj3in latency=2
+ #pragma HLS resource variable=proj4in latency=2
+ #pragma HLS resource variable=proj5in latency=2
+ #pragma HLS resource variable=proj6in latency=2
+ #pragma HLS resource variable=proj7in latency=2
+ #pragma HLS resource variable=proj8in latency=2
 
   MC_L3PHIC: MatchCalculator<BARRELPS, BARRELPS, BARREL, 3, 0, 2>
     (
