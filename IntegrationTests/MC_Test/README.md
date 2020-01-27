@@ -1,6 +1,6 @@
 # MC_Test
 
-Working example of a single instance of ProjectionRouter. The instance of MC that is used in this example is MC_L3PHIC.
+Working example of a single instance of MatchCalculator. The instance of MC that is used in this example is MC_L3PHIC.
 
 ### How to open the project for the first time
 
@@ -27,14 +27,14 @@ There is currently a waveform saved in the repo called CurrentWaveform.wcfg, whi
 Suppose, for example, you want to make some changes to the MC IP and incorporate them into this test project. Here's what you need to do:
 
 * Make the changes you want to make in
-	* firmware-hls/TrackletAlgorithm/ProjectionRouter.hh
-	* firmware-hls/TrackletAlgorithm/ProjectionRouterTop.h
-	* firmware-hls/TrackletAlgorithm/ProjectionRouterTop.cpp
-	* firmware-hls/TestBenches/ProjectionRouter_test.cpp
+	* firmware-hls/TrackletAlgorithm/MatchCalculator.hh
+	* firmware-hls/TrackletAlgorithm/MatchCalculatorTop.h
+	* firmware-hls/TrackletAlgorithm/MatchCalculatorTop.cpp
+	* firmware-hls/TestBenches/MatchCalculator_test.cpp
 * Navigate to firmware-hls/project
 * vivado_hls -f script_MC.tcl  
 This will create a zip file at  
-firmware-hls/project/projrouter/solution1/impl/ip/xilinx_com_hls_ProjectionRouterTop_1_0.zip
+firmware-hls/project/projrouter/solution1/impl/ip/xilinx_com_hls_MatchCalculatorTop_1_0.zip
 
 ### Brief description of the contents of this part of the repo
 
