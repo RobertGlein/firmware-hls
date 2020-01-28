@@ -52,8 +52,8 @@ initial begin
   CM_L3PHIC20_nentries_1_V_we = 1'b1;
 end
 
-reg[7:0] CM_L3PHIC20_nentreg_0 = 8'b00001001; // FIX
-reg[7:0] CM_L3PHIC20_nentreg_1 = 8'b00001001; // FIX
+reg[7:0] CM_L3PHIC20_nentreg_0 = 8'b00000001; // FIX
+reg[7:0] CM_L3PHIC20_nentreg_1 = 8'b00000010; // FIX
 assign CM_L3PHIC20_nentries_0_V_din = CM_L3PHIC20_nentreg_0;
 assign CM_L3PHIC20_nentries_1_V_din = CM_L3PHIC20_nentreg_1;
 
@@ -99,8 +99,8 @@ initial begin
   CM_L3PHIC21_nentries_1_V_we = 1'b1;
 end
 
-reg[7:0] CM_L3PHIC21_nentreg_0 = 8'b00001001; // FIX
-reg[7:0] CM_L3PHIC21_nentreg_1 = 8'b00001001; // FIX
+reg[7:0] CM_L3PHIC21_nentreg_0 = 8'b00000001; // FIX
+reg[7:0] CM_L3PHIC21_nentreg_1 = 8'b00000011; // FIX
 assign CM_L3PHIC21_nentries_0_V_din = CM_L3PHIC21_nentreg_0;
 assign CM_L3PHIC21_nentries_1_V_din = CM_L3PHIC21_nentreg_1;
 
@@ -172,12 +172,12 @@ end
 
 reg[7:0] AS_L3PHICn4_nentreg_0 = 8'b00111110; // FIX
 reg[7:0] AS_L3PHICn4_nentreg_1 = 8'b00111010; // FIX
-reg[7:0] AS_L3PHICn4_nentreg_2 = 8'b00001001; // FIX
-reg[7:0] AS_L3PHICn4_nentreg_3 = 8'b00001001; // FIX
-reg[7:0] AS_L3PHICn4_nentreg_4 = 8'b00001001; // FIX
-reg[7:0] AS_L3PHICn4_nentreg_5 = 8'b00001001; // FIX
-reg[7:0] AS_L3PHICn4_nentreg_6 = 8'b00001001; // FIX
-reg[7:0] AS_L3PHICn4_nentreg_7 = 8'b00001001; // FIX
+reg[7:0] AS_L3PHICn4_nentreg_2 = 8'b00000000; // FIX
+reg[7:0] AS_L3PHICn4_nentreg_3 = 8'b00000000; // FIX
+reg[7:0] AS_L3PHICn4_nentreg_4 = 8'b00000000; // FIX
+reg[7:0] AS_L3PHICn4_nentreg_5 = 8'b00000000; // FIX
+reg[7:0] AS_L3PHICn4_nentreg_6 = 8'b00000000; // FIX
+reg[7:0] AS_L3PHICn4_nentreg_7 = 8'b00000000; // FIX
 assign AS_L3PHICn4_nentries_0_V_din = AS_L3PHICn4_nentreg_0;
 assign AS_L3PHICn4_nentries_1_V_din = AS_L3PHICn4_nentreg_1;
 assign AS_L3PHICn4_nentries_2_V_din = AS_L3PHICn4_nentreg_2;
@@ -247,8 +247,8 @@ initial begin
   CM_L3PHIC22_nentries_1_V_we = 1'b1;
 end
 
-reg[7:0] CM_L3PHIC22_nentreg_0 = 8'b00001001; // FIX
-reg[7:0] CM_L3PHIC22_nentreg_1 = 8'b00001001; // FIX
+reg[7:0] CM_L3PHIC22_nentreg_0 = 8'b00001101; // FIX
+reg[7:0] CM_L3PHIC22_nentreg_1 = 8'b00000010; // FIX
 assign CM_L3PHIC22_nentries_0_V_din = CM_L3PHIC22_nentreg_0;
 assign CM_L3PHIC22_nentries_1_V_din = CM_L3PHIC22_nentreg_1;
 
@@ -294,8 +294,8 @@ initial begin
   CM_L3PHIC23_nentries_1_V_we = 1'b1;
 end
 
-reg[7:0] CM_L3PHIC23_nentreg_0 = 8'b00001001; // FIX
-reg[7:0] CM_L3PHIC23_nentreg_1 = 8'b00001001; // FIX
+reg[7:0] CM_L3PHIC23_nentreg_0 = 8'b00001101; // FIX
+reg[7:0] CM_L3PHIC23_nentreg_1 = 8'b00001101; // FIX
 assign CM_L3PHIC23_nentries_0_V_din = CM_L3PHIC23_nentreg_0;
 assign CM_L3PHIC23_nentries_1_V_din = CM_L3PHIC23_nentreg_1;
 
@@ -341,8 +341,8 @@ initial begin
   CM_L3PHIC24_nentries_1_V_we = 1'b1;
 end
 
-reg[7:0] CM_L3PHIC24_nentreg_0 = 8'b00001001; // FIX
-reg[7:0] CM_L3PHIC24_nentreg_1 = 8'b00001001; // FIX
+reg[7:0] CM_L3PHIC24_nentreg_0 = 8'b00000011; // FIX
+reg[7:0] CM_L3PHIC24_nentreg_1 = 8'b00010110; // FIX
 assign CM_L3PHIC24_nentries_0_V_din = CM_L3PHIC24_nentreg_0;
 assign CM_L3PHIC24_nentries_1_V_din = CM_L3PHIC24_nentreg_1;
 
@@ -389,7 +389,7 @@ initial begin
 end
 
 reg[7:0] CM_L3PHIC17_nentreg_0 = 8'b00000110; // FIX
-reg[7:0] CM_L3PHIC17_nentreg_1 = 8'b00000100; // FIX
+reg[7:0] CM_L3PHIC17_nentreg_1 = 8'b00000011; // FIX
 assign CM_L3PHIC17_nentries_0_V_din = CM_L3PHIC17_nentreg_0;
 assign CM_L3PHIC17_nentries_1_V_din = CM_L3PHIC17_nentreg_1;
 
@@ -435,8 +435,8 @@ initial begin
   CM_L3PHIC18_nentries_1_V_we = 1'b1;
 end
 
-reg[7:0] CM_L3PHIC18_nentreg_0 = 8'b00001001; // FIX
-reg[7:0] CM_L3PHIC18_nentreg_1 = 8'b00001001; // FIX
+reg[7:0] CM_L3PHIC18_nentreg_0 = 8'b00000010; // FIX
+reg[7:0] CM_L3PHIC18_nentreg_1 = 8'b00000011; // FIX
 assign CM_L3PHIC18_nentries_0_V_din = CM_L3PHIC18_nentreg_0;
 assign CM_L3PHIC18_nentries_1_V_din = CM_L3PHIC18_nentreg_1;
 
@@ -506,14 +506,14 @@ initial begin
   AP_L3PHIC_nentries_7_V_we = 1'b1;
 end
 
-reg[7:0] AP_L3PHIC_nentreg_0 = 8'b00110111; // FIX
-reg[7:0] AP_L3PHIC_nentreg_1 = 8'b00111010; // FIX
-reg[7:0] AP_L3PHIC_nentreg_2 = 8'b00001001; // FIX
-reg[7:0] AP_L3PHIC_nentreg_3 = 8'b00001001; // FIX
-reg[7:0] AP_L3PHIC_nentreg_4 = 8'b00001001; // FIX
-reg[7:0] AP_L3PHIC_nentreg_5 = 8'b00001001; // FIX
-reg[7:0] AP_L3PHIC_nentreg_6 = 8'b00001001; // FIX
-reg[7:0] AP_L3PHIC_nentreg_7 = 8'b00001001; // FIX
+reg[7:0] AP_L3PHIC_nentreg_0 = 8'b00110111?; // FIX
+reg[7:0] AP_L3PHIC_nentreg_1 = 8'b00110111?; // FIX
+reg[7:0] AP_L3PHIC_nentreg_2 = 8'b00000000; // FIX
+reg[7:0] AP_L3PHIC_nentreg_3 = 8'b00000000; // FIX
+reg[7:0] AP_L3PHIC_nentreg_4 = 8'b00000000; // FIX
+reg[7:0] AP_L3PHIC_nentreg_5 = 8'b00000000; // FIX
+reg[7:0] AP_L3PHIC_nentreg_6 = 8'b00000000; // FIX
+reg[7:0] AP_L3PHIC_nentreg_7 = 8'b00000000; // FIX
 assign AP_L3PHIC_nentries_0_V_din = AP_L3PHIC_nentreg_0;
 assign AP_L3PHIC_nentries_1_V_din = AP_L3PHIC_nentreg_1;
 assign AP_L3PHIC_nentries_2_V_din = AP_L3PHIC_nentreg_2;
@@ -583,8 +583,8 @@ initial begin
   CM_L3PHIC19_nentries_1_V_we = 1'b1;
 end
 
-reg[7:0] CM_L3PHIC19_nentreg_0 = 8'b00001001; // FIX
-reg[7:0] CM_L3PHIC19_nentreg_1 = 8'b00001001; // FIX
+reg[7:0] CM_L3PHIC19_nentreg_0 = 8'b00000100; // FIX
+reg[7:0] CM_L3PHIC19_nentreg_1 = 8'b00000011; // FIX
 assign CM_L3PHIC19_nentries_0_V_din = CM_L3PHIC19_nentreg_0;
 assign CM_L3PHIC19_nentries_1_V_din = CM_L3PHIC19_nentreg_1;
 
