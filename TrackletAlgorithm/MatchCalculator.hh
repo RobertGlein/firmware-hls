@@ -8,7 +8,6 @@
 #include "AllStubMemory.hh"
 #include "AllProjectionMemory.hh"
 #include "FullMatchMemory.hh"
-#include <bitset>
 
 //////////////////////////////////////////////////////////////
 
