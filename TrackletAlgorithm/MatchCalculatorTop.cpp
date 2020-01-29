@@ -23,22 +23,22 @@ void MatchCalculatorTop(BXType bx,
 {
  #pragma HLS inline off
  #pragma HLS interface register port=bx_o
- #pragma HLS resource variable=match1 latency=2
- #pragma HLS resource variable=match2 latency=2
- #pragma HLS resource variable=match3 latency=2
- #pragma HLS resource variable=match4 latency=2
- #pragma HLS resource variable=match5 latency=2
- #pragma HLS resource variable=match6 latency=2
- #pragma HLS resource variable=match7 latency=2
- #pragma HLS resource variable=allstub latency=2
- #pragma HLS resource variable=allproj latency=2
- #pragma HLS resource variable=fullmatch1 latency=2
- #pragma HLS resource variable=fullmatch2 latency=2
- #pragma HLS resource variable=fullmatch3 latency=2
- #pragma HLS resource variable=fullmatch4 latency=2
- #pragma HLS resource variable=fullmatch5 latency=2
- #pragma HLS resource variable=fullmatch6 latency=2
- #pragma HLS resource variable=fullmatch7 latency=2
+ #pragma HLS resource variable=match1.dataarray_ latency=2
+ #pragma HLS resource variable=match2.dataarray_ latency=2
+ #pragma HLS resource variable=match3.dataarray_ latency=2
+ #pragma HLS resource variable=match4.dataarray_ latency=2
+ #pragma HLS resource variable=match5.dataarray_ latency=2
+ #pragma HLS resource variable=match6.dataarray_ latency=2
+ #pragma HLS resource variable=match7.dataarray_ latency=2
+ #pragma HLS resource variable=allstub.dataarray_ latency=2
+ #pragma HLS resource variable=allproj.dataarray_ latency=2
+ #pragma HLS resource variable=fullmatch1.dataarray_ latency=2
+ #pragma HLS resource variable=fullmatch2.dataarray_ latency=2
+ #pragma HLS resource variable=fullmatch3.dataarray_ latency=2
+ #pragma HLS resource variable=fullmatch4.dataarray_ latency=2
+ #pragma HLS resource variable=fullmatch5.dataarray_ latency=2
+ #pragma HLS resource variable=fullmatch6.dataarray_ latency=2
+ #pragma HLS resource variable=fullmatch7.dataarray_ latency=2
 
   MC_L3PHIC: MatchCalculator<BARRELPS, BARRELPS, BARREL, 3, 0, 2>
     (
