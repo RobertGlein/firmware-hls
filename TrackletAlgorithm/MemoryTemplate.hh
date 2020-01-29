@@ -58,7 +58,7 @@ public:
 
   DataType read_mem(BunchXingT ibx, ap_uint<NBIT_ADDR> index) const
   {
-#pragma HLS ARRAY_PARTITION variable=nentries_ complete dim=0
+//#pragma HLS ARRAY_PARTITION variable=nentries_ complete dim=0
 	// TODO: check if valid
 	return dataarray_[ibx][index];
   }
