@@ -52,6 +52,15 @@
       <obj_property name="ElementShortName">CM_L3PHIC17_dataarray_data_V_readaddr[7:0]</obj_property>
       <obj_property name="ObjectShortName">CM_L3PHIC17_dataarray_data_V_readaddr[7:0]</obj_property>
    </wvobject>
+   <wvobject type="array" fp_name="/testfixture/CM_L3PHIC17/BRAM">
+      <obj_property name="ElementShortName">BRAM[255:0][13:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM[255:0][13:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testfixture/CM_L3PHIC17_dataarray_data_V_dout">
+      <obj_property name="ElementShortName">CM_L3PHIC17_dataarray_data_V_dout[13:0]</obj_property>
+      <obj_property name="ObjectShortName">CM_L3PHIC17_dataarray_data_V_dout[13:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
    <wvobject type="array" fp_name="/testfixture/CM_L3PHIC17_nentries_0_V_dout">
       <obj_property name="ElementShortName">CM_L3PHIC17_nentries_0_V_dout[7:0]</obj_property>
       <obj_property name="ObjectShortName">CM_L3PHIC17_nentries_0_V_dout[7:0]</obj_property>
@@ -339,10 +348,6 @@
    <wvobject type="array" fp_name="/testfixture/CM_L3PHIC23_dataarray_data_V_readaddr">
       <obj_property name="ElementShortName">CM_L3PHIC23_dataarray_data_V_readaddr[7:0]</obj_property>
       <obj_property name="ObjectShortName">CM_L3PHIC23_dataarray_data_V_readaddr[7:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/testfixture/CM_L3PHIC23_dataarray_data_V_dout">
-      <obj_property name="ElementShortName">CM_L3PHIC23_dataarray_data_V_dout[13:0]</obj_property>
-      <obj_property name="ObjectShortName">CM_L3PHIC23_dataarray_data_V_dout[13:0]</obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/testfixture/CM_L3PHIC23_nentries_0_V_dout">
       <obj_property name="ElementShortName">CM_L3PHIC23_nentries_0_V_dout[7:0]</obj_property>
