@@ -16,7 +16,7 @@ public:
   typedef ap_uint<NBIT_BX> BunchXingT;
   typedef ap_uint<NBIT_ADDR+1> NEntryT;
   
-//protected:
+protected:
 
   DataType dataarray_[1<<NBIT_BX][1<<NBIT_ADDR];  // data array
   NEntryT nentries_[1<<NBIT_BX];                  // number of entries
@@ -54,26 +54,13 @@ public:
 	return nentries_[bx];
   }
 
-  DataType* get_mem() {return dataarray_;}
+  const DataType (&get_mem() const)[1<<NBIT_BX][1<<NBIT_ADDR] {return dataarray_;}
 
   DataType read_mem(BunchXingT ibx, ap_uint<NBIT_ADDR> index) const
   {
-//#pragma HLS ARRAY_PARTITION variable=nentries_ complete dim=0
+#pragma HLS ARRAY_PARTITION variable=nentries_ complete dim=0
 	// TODO: check if valid
 	return dataarray_[ibx][index];
-  }
-
-  bool write_mem(BunchXingT ibx, DataType data, int addr_index)
-  {
-#pragma HLS ARRAY_PARTITION variable=nentries_ complete dim=0
-#pragma HLS inline
-    if (addr_index <= (1<<NBIT_ADDR)) {
-      dataarray_[ibx][addr_index] = data;
-      nentries_[ibx] = addr_index + 1;
-      return true;
-    } else {
-      return false;
-    }
   }
 
   bool write_mem(BunchXingT ibx, DataType data, int addr_index)

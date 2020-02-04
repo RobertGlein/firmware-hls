@@ -23,22 +23,16 @@ void MatchCalculatorTop(BXType bx,
 {
  #pragma HLS inline off
  #pragma HLS interface register port=bx_o
- #pragma HLS resource variable=match1.dataarray_ latency=2
- #pragma HLS resource variable=match2.dataarray_ latency=2
- #pragma HLS resource variable=match3.dataarray_ latency=2
- #pragma HLS resource variable=match4.dataarray_ latency=2
- #pragma HLS resource variable=match5.dataarray_ latency=2
- #pragma HLS resource variable=match6.dataarray_ latency=2
- #pragma HLS resource variable=match7.dataarray_ latency=2
- #pragma HLS resource variable=allstub.dataarray_ latency=2
- #pragma HLS resource variable=allproj.dataarray_ latency=2
- #pragma HLS resource variable=fullmatch1.dataarray_ latency=2
- #pragma HLS resource variable=fullmatch2.dataarray_ latency=2
- #pragma HLS resource variable=fullmatch3.dataarray_ latency=2
- #pragma HLS resource variable=fullmatch4.dataarray_ latency=2
- #pragma HLS resource variable=fullmatch5.dataarray_ latency=2
- #pragma HLS resource variable=fullmatch6.dataarray_ latency=2
- #pragma HLS resource variable=fullmatch7.dataarray_ latency=2
+ #pragma HLS resource variable=match1->get_mem() latency=2
+ #pragma HLS resource variable=match2->get_mem() latency=2
+ #pragma HLS resource variable=match3->get_mem() latency=2
+ #pragma HLS resource variable=match4->get_mem() latency=2
+ #pragma HLS resource variable=match5->get_mem() latency=2
+ #pragma HLS resource variable=match6->get_mem() latency=2
+ #pragma HLS resource variable=match7->get_mem() latency=2
+ #pragma HLS resource variable=match8->get_mem() latency=2
+ #pragma HLS resource variable=allstub->get_mem() latency=2
+ #pragma HLS resource variable=allproj->get_mem() latency=2
 
   MC_L3PHIC: MatchCalculator<BARRELPS, BARRELPS, BARREL, 3, 0, 2>
     (

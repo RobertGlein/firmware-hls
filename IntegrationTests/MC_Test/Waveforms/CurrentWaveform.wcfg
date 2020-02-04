@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="1068222812fs"></ZoomStartTime>
-      <ZoomEndTime time="1138885941fs"></ZoomEndTime>
-      <Cursor1Time time="1080000000fs"></Cursor1Time>
+      <ZoomStartTime time="2872890fs"></ZoomStartTime>
+      <ZoomEndTime time="2937591fs"></ZoomEndTime>
+      <Cursor1Time time="2926790fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="290"></NameColumnWidth>
+      <NameColumnWidth column_width="286"></NameColumnWidth>
       <ValueColumnWidth column_width="66"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="169" />
+   <WVObjectSize size="170" />
    <wvobject type="logic" fp_name="/testfixture/clk">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -609,24 +609,6 @@
       <obj_property name="ElementShortName">FM_L1L2XX_L3PHIC_dataarray_data_V_writeaddr[7:0]</obj_property>
       <obj_property name="ObjectShortName">FM_L1L2XX_L3PHIC_dataarray_data_V_writeaddr[7:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/SectorProcessor_test/bx_out_MatchCalculator">
-      <obj_property name="ElementShortName">bx_out_MatchCalculator[2:0]</obj_property>
-      <obj_property name="ObjectShortName">bx_out_MatchCalculator[2:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/SectorProcessor_test/CM_L3PHIC23_dataarray_data_V_dout">
-      <obj_property name="ElementShortName">CM_L3PHIC23_dataarray_data_V_dout[13:0]</obj_property>
-      <obj_property name="ObjectShortName">CM_L3PHIC23_dataarray_data_V_dout[13:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/SectorProcessor_test/en_proc">
-      <obj_property name="ElementShortName">en_proc</obj_property>
-      <obj_property name="ObjectShortName">en_proc</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/SectorProcessor_test/FM_L1L2XX_L3PHIC_dataarray_data_V_din">
-      <obj_property name="ElementShortName">FM_L1L2XX_L3PHIC_dataarray_data_V_din[44:0]</obj_property>
-      <obj_property name="ObjectShortName">FM_L1L2XX_L3PHIC_dataarray_data_V_din[44:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
-   </wvobject>
    <wvobject type="logic" fp_name="/testfixture/FM_L1L2XX_L3PHIC_nentries_0_V_we">
       <obj_property name="ElementShortName">FM_L1L2XX_L3PHIC_nentries_0_V_we</obj_property>
       <obj_property name="ObjectShortName">FM_L1L2XX_L3PHIC_nentries_0_V_we</obj_property>
@@ -711,5 +693,17 @@
    <wvobject type="array" fp_name="/testfixture/FM_L5L6XX_L3PHIC_nentries_1_V_dout">
       <obj_property name="ElementShortName">FM_L5L6XX_L3PHIC_nentries_1_V_dout[7:0]</obj_property>
       <obj_property name="ObjectShortName">FM_L5L6XX_L3PHIC_nentries_1_V_dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testfixture/FM_L1L2XX_L3PHIC/BRAM">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">BRAM[255:0][44:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM[255:0][44:0]</obj_property>
+      <obj_property name="label">FM_L1L2XX_BRAM[255:0][44:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testfixture/FM_L5L6XX_L3PHIC/BRAM">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">BRAM[255:0][44:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM[255:0][44:0]</obj_property>
+      <obj_property name="label">FM_L5L6XX_BRAM[255:0][44:0]</obj_property>
    </wvobject>
 </wave_config>
