@@ -1,0 +1,8 @@
+[submodule "submodules/imath"]
+	path = submodules/imath
+	url = ../imath.git
+	#url = git@github.com:cms-tracklet/imath.git
+[submodule "submodules/fpga_emulation_longVM"]
+	path = submodules/fpga_emulation_longVM
+	url = ../fpga_emulation_longVM.git
+	#url = git@github.com:cms-tracklet/fpga_emulation_longVM.git
