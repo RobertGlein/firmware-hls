@@ -27,7 +27,7 @@ stages: # ---------------------------------------------------------------------
   stage: hls-csim
   script:
     - cd project
-    - pwd; ll -a; #debug
+    - pwd; ls -la; #debug
     - vivado_hls -f "${PROJ_NAME}_csim"
   artifacts:
     when: always
@@ -41,7 +41,7 @@ stages: # ---------------------------------------------------------------------
   stage: hls-csynth-cosim-export
   script:
     - cd project
-    - pwd; ll -a; #debug
+    - pwd; ls -la; #debug
     - vivado_hls -f "${PROJ_NAME}_csynth_cosim_export"
   artifacts:
     when: on_success
