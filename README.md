@@ -1,6 +1,6 @@
 # firmware-hls : HLS implementation of the hybrid L1 track firmware
 
-[![pipeline status](https://gitlab.cern.ch/rglein/firmware-hls/badges/feat_CI/pipeline.svg)](https://gitlab.cern.ch/rglein/firmware-hls/commits/feat_CI)
+Pipeline status: [![pipeline status](https://gitlab.cern.ch/rglein/firmware-hls/badges/feat_CI/pipeline.svg)](https://gitlab.cern.ch/rglein/firmware-hls/commits/feat_CI)
 
 ## Repo directory contents:
 
