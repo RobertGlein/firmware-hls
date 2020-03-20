@@ -4,7 +4,7 @@
 # WARNING: this will wipe out the original project by the same name
 
 # create new project (deleting any existing one of same name)
-open_project -reset matchengine
+open_project -reset ME
 
 # source files
 set CFLAGS {-std=c++11 -I../TrackletAlgorithm}
@@ -21,9 +21,9 @@ open_solution "solution1"
 source settings_hls.tcl
 
 csim_design -compiler gcc -mflags "-j8"
-csynth_design
-cosim_design 
-export_design -format ip_catalog
+#csynth_design
+#cosim_design 
+#export_design -format ip_catalog
 # Adding "-flow impl" runs full Vivado implementation, providing accurate resource use numbers (very slow).
 #export_design -format ip_catalog -flow impl
 

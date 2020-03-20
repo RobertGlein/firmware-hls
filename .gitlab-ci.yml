@@ -57,10 +57,31 @@ PR-hls-csim:
   variables:
     VIVADO_VERSION: "2019.2"
     PROJ_NAME: "PR"
-
 PR-hls-csynth-cosim-export:
   <<: *template_hls-csynth-cosim-export
   variables:
     VIVADO_VERSION: "2019.2"
     PROJ_NAME: "PR"
+
+ME-hls-csim:
+  <<: *template_hls-csim
+  variables:
+    VIVADO_VERSION: "2019.2"
+    PROJ_NAME: "ME"
+ME-hls-csynth-cosim-export:
+  <<: *template_hls-csynth-cosim-export
+  variables:
+    VIVADO_VERSION: "2019.2"
+    PROJ_NAME: "ME"
+
+MC-hls-csim:
+  <<: *template_hls-csim
+  variables:
+    VIVADO_VERSION: "2019.2"
+    PROJ_NAME: "MC"
+MC-hls-csynth-cosim-export:
+  <<: *template_hls-csynth-cosim-export
+  variables:
+    VIVADO_VERSION: "2019.2"
+    PROJ_NAME: "MC"
     
